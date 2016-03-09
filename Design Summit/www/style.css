@@ -2,11 +2,13 @@
 ul#menu {
     padding: 0;
     margin-bottom: 11px;
+
 }
 
 ul#menu li {
     display: inline;
     margin-right: 3px;
+
 }
 
 ul#menu li a {
@@ -15,9 +17,15 @@ ul#menu li a {
     text-decoration: none;
     color: #696969;
     border-radius: 4px 4px 0 0;
+
 }
 
 ul#menu li a:hover {
     color: lime;
     background-color: green;
+}
+
+div#googleMap{
+    width:100px;
+    height:500px;
 }
