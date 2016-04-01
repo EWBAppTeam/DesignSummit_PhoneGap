@@ -1,7 +1,12 @@
 
+#container{
+    width: 400px
+}
+
 ul#menu {
     padding: 0;
     margin-bottom: 11px;
+    margin-top: 100px
 
 }
 
@@ -18,11 +23,6 @@ ul#menu li a {
     color: #696969;
     border-radius: 4px 4px 0 0;
 
-}
-
-ul#menu li a:hover {
-    color: lime;
-    background-color: green;
 }
 
 div#googleMap{
