@@ -1,18 +1,28 @@
 <!DOCTYPE html>
+<html>
+<!-- BORING HEAD SECTION, sets up app -->
 	<head>	
 		<meta charset = "utf-8">
         <title> Design Summit App - Home </title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Must include this to allow the app to be responsive -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        
+        <!-- Using W3 CSS Styling, Can use Bootstrap or make own if need -->
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">        
 	</head>
-
+<!-- End of HEAD SECTION -->
+    
+    
+    
+<!-- MAIN BODY and APP CODE -->
 	<body>
-		<div id = "container">
-            <div class = "ButtonRow">
-                <div class = "col-3"><div class = "button">Menu 1</div></div>
-                <div class = "col-3"><div class = "button">Menu 2</div></div>
-                <div class = "col-3"><div class = "button">Menu 3</div></div>
-                <div class = "col-3"><div class = "button">Menu 4</div></div>
+		<div class = "w3-container">
+            <div class = "w3-btn-group">
+                <button class = "w3-btn">Menu 1</button>
+                <button class = "w3-btn">Menu 2</button>
+                <button class = "w3-btn">Menu 3</button>
+                <button class = "w3-btn">Menu 4</button>
             </div>
 
 			<h1>Heading number 1</h1>
@@ -21,4 +31,5 @@
 
 		<script type="text/javascript" src="script.js"></script>
 	</body>
+<!-- END MAIN BODY -->
 </html>
