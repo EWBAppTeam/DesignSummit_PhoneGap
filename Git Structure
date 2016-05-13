@@ -1,0 +1,7 @@
+The way git is set up and should be used.
+
+Use the Master Branch only for Deployable Versions (Should be the current version on the App Stores)
+
+Use the Development Branch as a Sub-Master for merging new features for the new/next version.
+
+Use Seperate Branches for working on new features and then merge them back into the Development Branch once they are complete.
